@@ -1,7 +1,7 @@
 # loading-button-android
 Show or hide loading on button.
 
-[![](https://jitpack.io/v/koushikcse/loading-button-android.svg)](https://jitpack.io/#koushikcse/loading-button-android)
+
 
 ![LoadingButton demo](https://github.com/koushikcse/loading-button-android/blob/master/sampledemo.gif)
 
@@ -19,7 +19,7 @@ And then add this to your module level `build.gradle` file
 
 ```gradle
 dependencies {
-    implementation "com.github.koushikcse:LoadingButton:${latest-version}"
+    implementation "com.github.koushikcse:loading-button-android:${latest-version}"
 }
 ```
 ## How it works
@@ -35,7 +35,7 @@ Its very easy to use **LoadingButton** as its a custom button and contain all fe
 ```xml
 <layout
      ...
-    <com.kusu.loadingbutton.LoadingButton
+    <com.kusu.library.LoadingButton
             android:id="@+id/loadingButton"
             android:layout_width="200dp"
             android:layout_height="51dp"
