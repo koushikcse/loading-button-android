@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-   >
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,19 +31,19 @@
 
         </LinearLayout>
 
-        <com.kusu.loadingbutton.LoadingButton
+        <com.kusu.library.LoadingButton
             android:id="@+id/loadingButton"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="Circular World!"
-            app:lb_buttonColor="@color/unpressed_color"
             android:textColor="@color/white"
+            app:lb_buttonColor="@color/unpressed_color"
             app:lb_isCircular="true"
             app:lb_isShadowEnable="false" />
 
-        <com.kusu.loadingbutton.LoadingButton
+        <com.kusu.library.LoadingButton
             android:id="@+id/loadingButton1"
             android:layout_width="200dp"
             android:layout_height="51dp"
@@ -58,7 +57,7 @@
             app:lb_shadowColor="@color/colorPrimaryDark"
             app:lb_shadowHeight="5dp" />
 
-        <com.kusu.loadingbutton.LoadingButton
+        <com.kusu.library.LoadingButton
             android:id="@+id/loadingButton2"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
